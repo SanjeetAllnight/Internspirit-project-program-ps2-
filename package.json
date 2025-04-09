@@ -1,0 +1,23 @@
+{
+  "name": "internspirit-project-program-ps2-",
+  "version": "1.0.0",
+  "description": "-Member1- Sanjeet Ghadi\r -Member2- Shubham Velip\r -Member3- Suyash Berde\r -Member4- Yashraj Bhagat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanjeetAllnight/Internspirit-project-program-ps2-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanjeetAllnight/Internspirit-project-program-ps2-/issues"
+  },
+  "homepage": "https://github.com/SanjeetAllnight/Internspirit-project-program-ps2-#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
