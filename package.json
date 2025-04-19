@@ -2,7 +2,7 @@
   "name": "internspirit-project-program-ps2-",
   "version": "1.0.0",
   "description": "-Member1- Sanjeet Ghadi\r -Member2- Shubham Velip\r -Member3- Suyash Berde\r -Member4- Yashraj Bhagat",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,13 @@
   },
   "homepage": "https://github.com/SanjeetAllnight/Internspirit-project-program-ps2-#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "axios": "^1.6.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "tesseract.js": "^4.0.2"
   }
 }

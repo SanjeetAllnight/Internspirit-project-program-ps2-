@@ -1,4 +1,4 @@
-# Team Name: Niggas In GEC
+# Team Name: Cyber squad
 
 ## Team Members:
 -Member1- Sanjeet Ghadi
