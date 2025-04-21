@@ -14,4 +14,3 @@
 
 ## Tech Stack: for frontends framework and styling we are planning on using nextjs and Tailwind css. OCR(Tesseract.js) to scan food labels or images, for AI integration we are using OpenAI GPT (via API). For Backend, nodejs + Express. database PostgreSQL & Prisma ORM. Postman – For testing API endpoints or any VScode Extension
 
-check:
