@@ -1,9 +1,11 @@
 // routes/mealplan.js
+
 const express = require('express');
 const axios = require('axios');
 const router = express.Router();
+const authMiddleware = require('../middleware/authMiddleware');
 
-router.post('/mealplan', async (req, res) => {
+router.post('/mealplan', authMiddleware, async (req, res) => {
   const { ingredients, diet, calories } = req.body;
 
   const prompt = `
@@ -20,7 +22,7 @@ router.post('/mealplan', async (req, res) => {
       headers: {
         'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
         'Content-Type': 'application/json',
-      }
+      },
     });
 
     res.json({ plan: response.data.choices[0].message.content });
